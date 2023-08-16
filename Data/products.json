@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "Consumables",
+      "name": "TeaBag",
+      "price": 0.5,
+      "description": "A sache of tea",
+      "quantity": 10
+    },
+    {
+      "id": 2,
+      "category": "Consumables",
+      "name": "Milk",
+      "price": 0.5,
+      "description": "A packet of milk",
+      "quantity": 10
+    },
+    {
+        "id":3,
+        "category": "Wearables",
+        "name": "Watch",
+        "price": 100,
+        "description": "A watch",
+        "quantity": 1
+    }
+  ]
+}
