@@ -131,11 +131,12 @@ namespace TaskManager.controllers
             {
                 foreach(var product in products)
                 {
-                    Console.WriteLine($"Product Name: {product.ProductName}");
-                    Console.WriteLine($"Product Price: {product.Price}");
-                    Console.WriteLine($"Product Quantity: {product.Quantity}");
-                    Console.WriteLine($"Product Description: {product.Description}");
-                    Console.WriteLine($"Product Category: {product.ProductCategory}");
+                    Console.WriteLine($"{product.Id}. ProductName:{product.ProductName}, ProductPrice: {product.Price}, ProductQuantity: {product.Quantity}");
+
+                    //Console.Write($"");
+                    //Console.Write($"");
+                    //Console.Write($"ProductDescription: {product.Description}");
+                    //Console.Write($"ProductCategory: {product.ProductCategory}");
                 }
             }
             else
@@ -151,6 +152,8 @@ namespace TaskManager.controllers
             Console.WriteLine("Enter Product Id");
             var id = Console.ReadLine();
             var product = await productService.GetProductAsync(id);
+            Console.WriteLine($"{product.ProductName}");
+            
             if(product != null)
             {
                 Console.WriteLine("Enter Product Name");
@@ -166,6 +169,7 @@ namespace TaskManager.controllers
 
                 var updatedProduct = new Products
                 {
+                    Id = id,
                     ProductName = name,
                     Price = price,
                     Quantity = quantity,

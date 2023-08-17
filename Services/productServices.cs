@@ -13,7 +13,7 @@ namespace TaskManager.Services
     public class ProductServices : IProducts
     {
         private readonly HttpClient _httpClient;
-        private readonly string _url = "https://localhost:3000/products";
+        private readonly string _url = "http://localhost:3000/products";
 
         public ProductServices()
         {

@@ -2,27 +2,37 @@
   "products": [
     {
       "id": 1,
-      "category": "Consumables",
-      "name": "TeaBag",
+      "ProductCategory": "Consumables",
+      "ProductName": "TeaBag",
       "price": 0.5,
       "description": "A sache of tea",
       "quantity": 10
     },
     {
       "id": 2,
-      "category": "Consumables",
-      "name": "Milk",
-      "price": 0.5,
-      "description": "A packet of milk",
-      "quantity": 10
+      "ProductName": "milk-big",
+      "ProductCategory": "edibles",
+      "Price": "433",
+      "Description": "a big milk packet",
+      "Quantity": "55"
+
     },
     {
-        "id":3,
-        "category": "Wearables",
-        "name": "Watch",
-        "price": 100,
-        "description": "A watch",
-        "quantity": 1
+      "id": 3,
+      "ProductCategory": "Wearables",
+      "ProductName": "Watch",
+      "price": 100,
+      "description": "A watch",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "ProductName": "ff",
+      "ProductCategory": "fff",
+      "Price": "ff",
+      "Description": "dd",
+      "Quantity": "ff",
+      
     }
   ]
 }
