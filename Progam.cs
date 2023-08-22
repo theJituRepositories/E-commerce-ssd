@@ -28,11 +28,11 @@ namespace TaskManagerConsole
             //context.SaveChanges(); // Save changes to the database
             // view the tasks in the database
             Console.ReadKey();
-            var taskList = Tasks.ViewTasks();
-            foreach (var task in taskList)
-            {
-                Console.WriteLine($"TaskName: {task.TaskName} --  Category: {task.TaskCategory}");
-            }
+            //var taskList = Tasks.ViewTasks();
+            //foreach (var task in taskList)
+            //{
+            //    Console.WriteLine($"TaskName: {task.TaskName} --  Category: {task.TaskCategory}");
+            //}
         }
 
 
