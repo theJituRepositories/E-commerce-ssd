@@ -131,12 +131,8 @@ namespace TaskManager.controllers
             {
                 foreach(var product in products)
                 {
-                    Console.WriteLine($"{product.Id}. ProductName:{product.ProductName}, ProductPrice: {product.Price}, ProductQuantity: {product.Quantity}");
+                    Console.WriteLine($"{product.Id}. ProductName:{product.ProductName}, ProductPrice: {product.Price}, ProductQuantity: {product.Quantity},ProductDescription: {product.Description}, ProductCategory: {product.ProductCategory}");
 
-                    //Console.Write($"");
-                    //Console.Write($"");
-                    //Console.Write($"ProductDescription: {product.Description}");
-                    //Console.Write($"ProductCategory: {product.ProductCategory}");
                 }
             }
             else

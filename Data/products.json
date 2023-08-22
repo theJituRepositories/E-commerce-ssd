@@ -15,7 +15,6 @@
       "Price": "433",
       "Description": "a big milk packet",
       "Quantity": "55"
-
     },
     {
       "id": 3,
@@ -26,13 +25,13 @@
       "quantity": 1
     },
     {
-      "id": 4,
-      "ProductName": "ff",
-      "ProductCategory": "fff",
-      "Price": "ff",
-      "Description": "dd",
-      "Quantity": "ff",
-      
+      "Id": null,
+      "ProductName": "milk",
+      "ProductCategory": "edibles",
+      "Price": "103",
+      "Description": "a packet of milk",
+      "Quantity": "5",
+      "id": 5
     }
   ]
 }
