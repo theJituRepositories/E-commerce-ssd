@@ -12,4 +12,6 @@ namespace TaskManager.Models.Tasks
         public string Description { get; set; } = string.Empty;
         public int Quantity { get; set; } = 0;
     }
+
+    
 }
